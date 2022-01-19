@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.1.1", "Task2.1.1\Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KireevCustoms", "KireevCustoms\KireevCustoms.csproj", "{12017BE0-EAEE-4647-9C22-12CEC344337B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2.1.2", "Task2.1.2\Task2.1.2.csproj", "{1E0E0AA7-76B3-42AC-AF78-67D88202F494}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{12017BE0-EAEE-4647-9C22-12CEC344337B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12017BE0-EAEE-4647-9C22-12CEC344337B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12017BE0-EAEE-4647-9C22-12CEC344337B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0E0AA7-76B3-42AC-AF78-67D88202F494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0E0AA7-76B3-42AC-AF78-67D88202F494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0E0AA7-76B3-42AC-AF78-67D88202F494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0E0AA7-76B3-42AC-AF78-67D88202F494}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
