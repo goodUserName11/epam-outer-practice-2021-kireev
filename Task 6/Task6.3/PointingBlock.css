@@ -1,0 +1,49 @@
+body{
+    margin:0;
+}
+.rectangle-block
+{
+    z-index: -2;
+
+    height: 80px;
+    margin-top: -10px;
+    position: relative;
+    text-align: center;
+
+    background: cornflowerblue;
+    border: darkturquoise 5px solid;
+}
+.par{
+    line-height: 50px;
+    color: white;
+}
+.triangle-block
+{
+    content: "";
+    position: relative;
+
+    width: 0; 
+    height: 0;
+
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid cornflowerblue;;
+    
+    margin: auto;
+    margin-top: 10px;
+}
+.triangle-block::before
+{
+    z-index: -1;
+
+    content: "";
+    position: relative;
+    left: -59px;
+    top: -25px;
+    width: 0;
+    height: 0;
+
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 60px solid darkturquoise;
+}

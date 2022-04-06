@@ -1,0 +1,22 @@
+.list-menu
+{
+    width: 200px;
+	border:2px;
+
+    box-shadow: 200 px;
+    border-radius: 10px;
+    border-style: outset;
+
+    color: rgb(136,0,60);
+    background-color: rgb(240,232,145);
+    border-color: black;
+    box-shadow: 5px 5px darkred;
+
+    font-size: 15px;
+}
+
+.list
+{
+    margin:0;
+	padding: 5px;
+}

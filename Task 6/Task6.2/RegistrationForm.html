@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta lang="ru" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>8.2 Registration form</title>
+
+    <link rel="stylesheet" href="RegistrationForm.css">
+</head>
+
+<body>
+    <main>
+        <h1>Регистрация</h1>
+        <hr>
+
+        <div>
+            <form action="/somewhere/registration">
+                <div>
+                    <label>
+                        <p>Email</p>
+                        <input type="email" name="email" class="long-input">
+                    </label>
+                </div>
+
+                <div>
+                    <div class="inputs-inline">
+                        <label>
+                            <p>Пароль</p>
+                            <input type="password" name="password">
+                        </label>
+                    </div>
+
+                    <div class="inputs-inline second-input">
+                        <label>
+                            <p>Еще раз</p>
+                            <input type="password" name="second-password">
+                        </label>
+                    </div>
+                </div>
+
+                <div><button type="submit">Отправить</button></div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

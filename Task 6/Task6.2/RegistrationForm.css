@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+main{
+    padding: 10px;
+    width: 400px;
+    height: 250px;
+    
+    background-color: dodgerblue;
+    color: white;
+    border: 5px solid darkblue;
+}
+hr{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+button{
+    width: 90px;
+    height: 30px;
+
+    background-color: darkorange;
+}
+p{
+    margin-bottom: 0px;
+}
+
+.inputs-inline{
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+.second-input{
+    margin-left: 20px;
+}
+.long-input{
+    width: 358px;
+}
